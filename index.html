@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" type="image/x-icon" href="img/vecteezy_element-flower-icon_9267428_994.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/vecteezy_element-flower-icon_9267428_994.png" alt="Bootstrap" width="40" height="40">Uncut
+              </a>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container forminput">
+            <form class="d-flex flex-wrap align-content-center justify-content-evenly">
+                <input type="text" class="inputtxt form-control" placeholder="Enter  Title"  id="inputName">
+                <input class="btn" type="button" value="Search" onclick="SearchPhoto()" >
+            </form>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="Gallery">
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
