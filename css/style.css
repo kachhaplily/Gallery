@@ -1,15 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.forminput{
-background: url(../img/Pexels\ Videos\ 2812061.mp4);
+
+header {
+    background: black;
 }
-.container{
+
+.forminput {
+    padding: 20px 0;
+    background-size: cover;
+
+}
+
+.container {
     padding: 20px;
 }
-.inputtxt{
+
+.inputtxt {
     max-width: 600px;
     border: none;
     margin: 5px;
@@ -18,61 +27,74 @@ background: url(../img/Pexels\ Videos\ 2812061.mp4);
     background-color: transparent;
 }
 
-.navbar a{
+.navbar a {
     color: rgb(11, 70, 86);
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 2px;
 }
-#Gallery{
+
+#Gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.photo{
+
+.photo {
     width: 300px;
     padding: 10px;
     text-align: center;
- 
-    
+
+
 }
-.photo a{
+
+.photo a {
     text-decoration: none;
     text-transform: capitalize;
     display: block;
     color: black;
-  
+
 }
-.photo a:hover{
+
+.photo a:hover {
     background-color: rgb(27, 27, 27);
     color: white;
 }
-.photo img{
+
+.photo img {
     max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     background-color: rgb(219, 218, 218);
 }
-.btn{
+
+.btn {
     background: rgb(35, 35, 35);
-    color: white !important;
-    padding: 0 20px;
+    color: white ;
+    padding: 0 50px;
 
 }
-.loaddiv{
+.btn:hover{
+    color: white ;
+    background: rgb(11, 70, 86);
+}
+
+.loaddiv {
     cursor: pointer;
     width: 100%;
     text-align: center;
     font-size: 25px;
     padding: 10px;
 }
-.load{
+
+.load {
     text-align: center;
     text-decoration: none;
     padding: 5px 12px;
     background: black;
     color: white;
 }
-.load:hover{
+
+.load:hover {
     color: black;
     background: white;
     border: 1px solid black;
