@@ -31,15 +31,7 @@ gallery = (y) => {
 
 
     }).join(" ");
-    const a = document.createElement('a')
-    const div = document.createElement('div')
-    const txtnode = document.createTextNode("LoadMore")
-    a.appendChild(txtnode);
-    a.setAttribute('onclick', 'loadmore()');
-    a.setAttribute('class','load')
-    div.setAttribute('class','loaddiv')
-    div.appendChild(a);
-    document.getElementById('Gallery').append(div);
+document.querySelector('.loaddiv').style.display="block"
 
 }
 
