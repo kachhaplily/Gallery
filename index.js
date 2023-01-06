@@ -2,7 +2,7 @@ let myphotos = [];
 
 fetchdata = async (inputname, page) => {
     const API_key = '563492ad6f91700001000001a50248a19756492687753a2523d04a50';
-    const fecthdata = await fetch(`https://api.pexels.com/v1/search?query=${inputname}&page=${page}&per_page=12`, {
+    const fecthdata = await fetch(`https://api.pexels.com/v1/search?query=${inputname}&page=${page}&per_page=15`, {
         method: 'GET',
         headers: {
             Accept: 'application/json',

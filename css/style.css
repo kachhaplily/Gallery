@@ -35,16 +35,25 @@ header {
 }
 
 #Gallery {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
+    max-width: 1200px;
+    margin: auto;
+    columns: 4 280px;
+    column-gap: 1rem;
+    font-size: 1.2rem;
 }
 
 .photo {
-    width: 300px;
+    width: 100%;
     padding: 10px;
     text-align: center;
-
+    margin: 0 0 1rem;
+    display: inline-block; /* stops block being split across columns. Could use break-inside: avoid for modern browsers; */
+    break-inside: avoid;
+    text-align: center;
+    font-weight: bold;
 
 }
 
